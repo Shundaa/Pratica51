@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package utfpr.dainf.if62c.pratica;
+package utfpr.ct.dainf.if62c.pratica;
 /**
  * Representa uma matriz de valores double.
  * @author Wilson Horstmeyer Bogadao <wilson@utfpr.edu.br>
@@ -18,7 +18,7 @@ public class Matriz {
      * Construtor que aloca a matriz.
      * @param m O número de linhas da matriz.
      * @param n O número de colunas da matriz.
-     * @throws utfpr.dainf.if62c.pratica.MatrizInvalidaException
+     * @throws utfpr.ct.dainf.if62c.pratica.MatrizInvalidaException
      */
     public Matriz (int m, int n) throws MatrizInvalidaException {
         if(m <=0 || n <=0){
@@ -38,7 +38,7 @@ public class Matriz {
     /**
      * Retorna a matriz transposta.
      * @return A matriz transposta.
-     * @throws utfpr.dainf.if62c.pratica.MatrizInvalidaException
+     * @throws utfpr.ct.dainf.if62c.pratica.MatrizInvalidaException
      */
     public Matriz getTransposta() throws MatrizInvalidaException {
         Matriz t = new Matriz(mat[0].length, mat.length);
@@ -53,7 +53,7 @@ public class Matriz {
     /**
      * Retorna a soma desta matriz com a matriz recebida como argumento.
      * @param m
-     * @throws utfpr.dainf.if62c.pratica.SomaMatrizesIncompativeisException
+     * @throws utfpr.ct.dainf.if62c.pratica.SomaMatrizesIncompativeisException
      * @return A soma das matrizes
      */
     public Matriz soma(Matriz m) throws SomaMatrizesIncompativeisException{

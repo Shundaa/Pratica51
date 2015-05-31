@@ -1,8 +1,8 @@
 
-import utfpr.dainf.if62c.pratica.Matriz;
-import utfpr.dainf.if62c.pratica.MatrizInvalidaException;
-import utfpr.dainf.if62c.pratica.ProdMatrizesIncompativeisException;
-import utfpr.dainf.if62c.pratica.SomaMatrizesIncompativeisException;
+import utfpr.ct.dainf.if62c.pratica.Matriz;
+import utfpr.ct.dainf.if62c.pratica.MatrizInvalidaException;
+import utfpr.ct.dainf.if62c.pratica.ProdMatrizesIncompativeisException;
+import utfpr.ct.dainf.if62c.pratica.SomaMatrizesIncompativeisException;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
