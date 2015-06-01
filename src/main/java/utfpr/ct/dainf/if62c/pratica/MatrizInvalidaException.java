@@ -15,15 +15,17 @@ public class MatrizInvalidaException extends Exception{
     private final int j;
     
     public MatrizInvalidaException(int i, int j){
-        System.out.println("Matriz de " + i + "x" + j + " nao pode ser criada." );
+        super(String.format(
+            "Matriz de %dx%d não pode ser criada",
+            i,j ));
         this.i = i;
         this.j = j;
     }
 
-    public int geti(){
+    public int getNumLinhas(){
         return i;
     }
-    public int getj(){
+    public int getNumColunas(){
         return j;
     }
     

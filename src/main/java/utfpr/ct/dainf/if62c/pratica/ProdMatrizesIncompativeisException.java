@@ -14,7 +14,7 @@ public class ProdMatrizesIncompativeisException extends MatrizesIncompativeisExc
     private final Matriz m2;
  public ProdMatrizesIncompativeisException(Matriz m1, Matriz m2){
        super(m1, m2, String.format(
-            "Matrix of %dx%d and %dx%d cannot be added.",
+            "Matrix of %dx%d and %dx%d não podem ser multiplicadas.",
             m1.getMatriz().length, m1.getMatriz()[0].length,
             m2.getMatriz().length, m2.getMatriz()[0].length));
        this.m1 = m1;
